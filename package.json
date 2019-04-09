@@ -4,7 +4,8 @@
     "postinstall": "gem install bundler && bundle install",
     "start": "bundle exec jekyll serve",
     "build": "npm run build:sass && npm run build:js",
-    "build.js": "cp node_modules/"
+    "build.js": "node build.js",
+    "build:sass": "node-sass --include-path=node_modules --output-style=compressed _sass/app.scss assets/css/app.css"
   },
   "author": "Bruno P. Kinoshita",
   "license": "MIT License",
