@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kinow/kinoshita-v10/issues"
   },
-  "homepage": "https://github.com/kinow/kinoshita-v10#readme"
+  "homepage": "https://github.com/kinow/kinoshita-v10#readme",
+  "dependencies": {
+    "material-components-web": "^1.1.1"
+  }
 }
