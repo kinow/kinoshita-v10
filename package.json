@@ -1,0 +1,19 @@
+{
+  "name": "kinoshita-v10",
+  "version": "10.0.0",
+  "description": "kinoshita.eti.br Jekyll theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinow/kinoshita-v10.git"
+  },
+  "author": "Bruno P. Kinoshita",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/kinow/kinoshita-v10/issues"
+  },
+  "homepage": "https://github.com/kinow/kinoshita-v10#readme"
+}
