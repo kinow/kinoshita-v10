@@ -3,7 +3,7 @@
   "scripts": {
     "postinstall": "gem install bundler && bundle install",
     "start": "bundle exec jekyll serve",
-    "build": "npm run build:sass && npm run build:js",
+    "build": "npm run build:sass && node build.js",
     "build.js": "node build.js",
     "build:sass": "node-sass --include-path=node_modules --output-style=compressed _sass/app.scss assets/css/app.css"
   },
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "clean-css": "^4.2.1",
+    "shelljs": "^0.8.3",
     "uglify-js": "^3.5.3"
   }
 }
