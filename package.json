@@ -5,7 +5,7 @@
     "start": "bundle exec jekyll serve",
     "build": "npm run build:sass && node build.js",
     "build.js": "node build.js",
-    "build:sass": "node-sass --include-path=node_modules --output-style=compressed _sass/app.scss assets/css/app.css"
+    "build:sass": "node-sass --include-path=node_modules --output-style=compressed src/sass/app.scss assets/css/app.css"
   },
   "author": "Bruno P. Kinoshita",
   "license": "MIT License",
