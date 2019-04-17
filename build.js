@@ -22,7 +22,7 @@ const js_files = [];
 // compress js files function
 function compress_js(pagename, filename, filelist) {
     console.log('Now compress ' + pagename + ' js files to ' + filename + ' ...');
-    var result = uglify_js.minify(filelist, {
+    const result = uglify_js.minify(filelist, {
         mangle: true,
         compress: {
             sequences: true,
@@ -43,8 +43,8 @@ function compress_js(pagename, filename, filelist) {
 // compress css files function
 function compress_css(pagename, filename, filelist) {
     console.log('Now compress ' + pagename + ' css files to ' + filename + ' ...');
-    var result = new clean_css().minify(filelist);
-    var output = new clean_css({
+    const result = new clean_css().minify(filelist);
+    const output = new clean_css({
         level: {
             1: {
                 transform: function (propertyName, propertyValue) {
