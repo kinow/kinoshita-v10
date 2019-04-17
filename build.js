@@ -13,9 +13,11 @@ const now_date = new Date()
 shell.rm('-rf', 'assets/*.min.js');
 shell.rm('-rf', 'assets/*.min.css');
 
-const css_files = [];
+const css_files = [
+];
 
-const js_files = [];
+const js_files = [
+];
 
 // Source: https://github.com/jarrekk/Jalpc/blob/master/build/build.js
 
